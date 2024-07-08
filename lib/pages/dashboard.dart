@@ -133,10 +133,6 @@ class _DashboardState extends State<Dashboard> {
             textAlign: TextAlign.center,
           ),
           const SizedBox(height: 16),
-          ElevatedButton(
-            onPressed: _refreshMeal,
-            child: const Text('Try Again'),
-          ),
         ],
       ),
     );
